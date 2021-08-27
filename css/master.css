@@ -1,0 +1,31 @@
+/*=======VERIABLES==========*/
+:root {
+	--clr-primary-200: #84fab0;
+	--clr-primary-400: #65dfc9;
+	--clr-second: #6cdbed;
+	--clr-white: #fff;
+	--clr-black: #000;
+	--ff-roboto: 'Roboto', sans-serif;
+	--ff-oswald: 'Oswald', sans-serif;
+	--ff-size: 1rem;
+	--ff-size: 1rem;
+}
+/*=======RESETS==========*/
+*,
+*::before *::after {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+	padding: 0;
+}
+/*=======HEADER==========*/
+
+/*=======SECTION==========*/
+
+/*=======FOOTER==========*/
