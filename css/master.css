@@ -50,9 +50,23 @@ img {
 }
 /*=======HEADER==========*/
 .hero {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+	padding: 20px;
+}
+.item {
 	background-color: var(--clr-primary-200);
+	line-height: 1.6;
+	padding: 20px;
+	font-size: 1rem;
 }
 
+.item:nth-child(1) {
+	grid-row: span 2;
+	display: grid;
+	align-content: center;
+}
 /*=======UTILITIES CLASSES==========*/
 .text-center {
 	text-align: center;
